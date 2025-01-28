@@ -1,0 +1,12 @@
+C:\Users\price.g\Desktop\Programming 2\favorite movie\favorite movie\bin\Debug\favorite movie.exe.config
+C:\Users\price.g\Desktop\Programming 2\favorite movie\favorite movie\bin\Debug\favorite movie.exe
+C:\Users\price.g\Desktop\Programming 2\favorite movie\favorite movie\bin\Debug\favorite movie.dll
+C:\Users\price.g\Desktop\Programming 2\favorite movie\favorite movie\bin\Debug\IronPython.dll
+C:\Users\price.g\Desktop\Programming 2\favorite movie\favorite movie\bin\Debug\IronPython.Modules.dll
+C:\Users\price.g\Desktop\Programming 2\favorite movie\favorite movie\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\price.g\Desktop\Programming 2\favorite movie\favorite movie\bin\Debug\Microsoft.Scripting.dll
+C:\Users\price.g\Desktop\Programming 2\favorite movie\favorite movie\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\price.g\Desktop\Programming 2\favorite movie\favorite movie\obj\Debug\favorite movie.pyprojResolveAssemblyReference.cache
+C:\Users\price.g\Desktop\Programming 2\favorite movie\favorite movie\obj\Debug\favorite_movie.MainForm.resources
+C:\Users\price.g\Desktop\Programming 2\favorite movie\favorite movie\obj\Debug\favorite movie.pyproj.GenerateResource.Cache
+C:\Users\price.g\Desktop\Programming 2\favorite movie\favorite movie\obj\Debug\favorite movie.exe
