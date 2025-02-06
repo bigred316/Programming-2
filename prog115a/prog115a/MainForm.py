@@ -82,7 +82,7 @@ class MainForm(Form):
 		self._listBox1.Items.Clear()
 		lcv = 2 
 		while lcv <= 36:
-			self.listBox1.Items.Add(str(lcv))
+			self._listBox1.Items.Add(str(lcv))
 			lcv += 2
 		
 
