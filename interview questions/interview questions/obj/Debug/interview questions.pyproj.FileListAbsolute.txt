@@ -1,0 +1,12 @@
+C:\Users\price.g\Desktop\Programming 2\interview questions\interview questions\obj\Debug\interview questions.pyprojResolveAssemblyReference.cache
+C:\Users\price.g\Desktop\Programming 2\interview questions\interview questions\obj\Debug\interview_questions.MainForm.resources
+C:\Users\price.g\Desktop\Programming 2\interview questions\interview questions\obj\Debug\interview questions.pyproj.GenerateResource.Cache
+C:\Users\price.g\Desktop\Programming 2\interview questions\interview questions\bin\Debug\interview questions.exe.config
+C:\Users\price.g\Desktop\Programming 2\interview questions\interview questions\bin\Debug\interview questions.exe
+C:\Users\price.g\Desktop\Programming 2\interview questions\interview questions\bin\Debug\interview questions.dll
+C:\Users\price.g\Desktop\Programming 2\interview questions\interview questions\bin\Debug\IronPython.dll
+C:\Users\price.g\Desktop\Programming 2\interview questions\interview questions\bin\Debug\IronPython.Modules.dll
+C:\Users\price.g\Desktop\Programming 2\interview questions\interview questions\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\price.g\Desktop\Programming 2\interview questions\interview questions\bin\Debug\Microsoft.Scripting.dll
+C:\Users\price.g\Desktop\Programming 2\interview questions\interview questions\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\price.g\Desktop\Programming 2\interview questions\interview questions\obj\Debug\interview questions.exe
