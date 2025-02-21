@@ -1,3 +1,11 @@
+def circleMath(rad):
+    area = (rad**2)*3.14159
+    circum = 2 * 3.14159 * rad
+    return area, circum
+
+
+
+
 def main():
     radi = int(input("Input radius"))
     area , circum = circleMath(radi)
@@ -11,7 +19,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-def circleMath(rad):
-    area = (rad**2)*3.14159
-    circum = 2 * 3.14159 * rad
-    return area, circum
+
