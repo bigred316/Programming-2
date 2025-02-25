@@ -6,6 +6,7 @@ from System.Windows.Forms import *
 
 class MainForm(Form):
 	def __init__(self):
+		self.price = 0
 		self.InitializeComponent()
 	
 	def InitializeComponent(self):
@@ -14,6 +15,10 @@ class MainForm(Form):
 		self._radioButton2 = System.Windows.Forms.RadioButton()
 		self._radioButton3 = System.Windows.Forms.RadioButton()
 		self._label1 = System.Windows.Forms.Label()
+		self._textBox1 = System.Windows.Forms.TextBox()
+		self._button1 = System.Windows.Forms.Button()
+		self._button3 = System.Windows.Forms.Button()
+		self._label2 = System.Windows.Forms.Label()
 		self._groupBox1.SuspendLayout()
 		self.SuspendLayout()
 		# 
@@ -26,7 +31,7 @@ class MainForm(Form):
 		self._groupBox1.Font = System.Drawing.Font("Microsoft Sans Serif", 24, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
 		self._groupBox1.Location = System.Drawing.Point(22, 12)
 		self._groupBox1.Name = "groupBox1"
-		self._groupBox1.Size = System.Drawing.Size(391, 290)
+		self._groupBox1.Size = System.Drawing.Size(391, 248)
 		self._groupBox1.TabIndex = 3
 		self._groupBox1.TabStop = False
 		self._groupBox1.Text = "What time is it?"
@@ -67,16 +72,58 @@ class MainForm(Form):
 		# 
 		# label1
 		# 
-		self._label1.Location = System.Drawing.Point(533, 34)
+		self._label1.Font = System.Drawing.Font("Microsoft Sans Serif", 14.25, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
+		self._label1.Location = System.Drawing.Point(22, 267)
 		self._label1.Name = "label1"
-		self._label1.Size = System.Drawing.Size(14, 23)
+		self._label1.Size = System.Drawing.Size(148, 30)
 		self._label1.TabIndex = 4
-		self._label1.Text = "label1"
+		self._label1.Text = "# of minutes"
+		# 
+		# textBox1
+		# 
+		self._textBox1.Location = System.Drawing.Point(150, 272)
+		self._textBox1.Name = "textBox1"
+		self._textBox1.Size = System.Drawing.Size(263, 20)
+		self._textBox1.TabIndex = 5
+		# 
+		# button1
+		# 
+		self._button1.Font = System.Drawing.Font("Microsoft Sans Serif", 15.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+		self._button1.Location = System.Drawing.Point(22, 301)
+		self._button1.Name = "button1"
+		self._button1.Size = System.Drawing.Size(191, 57)
+		self._button1.TabIndex = 6
+		self._button1.Text = "Calculate"
+		self._button1.UseVisualStyleBackColor = True
+		self._button1.Click += self.Button1Click
+		# 
+		# button3
+		# 
+		self._button3.Font = System.Drawing.Font("Microsoft Sans Serif", 15.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+		self._button3.Location = System.Drawing.Point(219, 301)
+		self._button3.Name = "button3"
+		self._button3.Size = System.Drawing.Size(194, 57)
+		self._button3.TabIndex = 8
+		self._button3.Text = "Exit"
+		self._button3.UseVisualStyleBackColor = True
+		# 
+		# label2
+		# 
+		self._label2.BackColor = System.Drawing.Color.FromArgb(128, 255, 255)
+		self._label2.Location = System.Drawing.Point(420, 12)
+		self._label2.Name = "label2"
+		self._label2.Size = System.Drawing.Size(358, 346)
+		self._label2.TabIndex = 9
+		self._label2.Text = "label2"
 		# 
 		# MainForm
 		# 
 		self.BackColor = System.Drawing.Color.FromArgb(192, 192, 255)
-		self.ClientSize = System.Drawing.Size(903, 317)
+		self.ClientSize = System.Drawing.Size(781, 370)
+		self.Controls.Add(self._label2)
+		self.Controls.Add(self._button3)
+		self.Controls.Add(self._button1)
+		self.Controls.Add(self._textBox1)
 		self.Controls.Add(self._label1)
 		self.Controls.Add(self._groupBox1)
 		self.Name = "MainForm"
@@ -84,6 +131,7 @@ class MainForm(Form):
 		self.Load += self.MainFormLoad
 		self._groupBox1.ResumeLayout(False)
 		self.ResumeLayout(False)
+		self.PerformLayout()
 
 
 	def MainFormLoad(self, sender, e):
@@ -93,10 +141,26 @@ class MainForm(Form):
 		pass
 
 	def RadioButton2CheckedChanged(self, sender, e):
-		pass
+		pricecalc()
 
 	def RadioButton1CheckedChanged(self, sender, e):
-		pass
+		pricecalc()
 
 	def RadioButton3CheckedChanged(self, sender, e):
-		pass
+		pricecalc()
+	
+	
+	def pricecalc(self):
+		if RadioButton1.Checked:
+			self.price = 0.07
+		if RadioButton2.Checked:
+			self.price = 0.12
+		if RadioButton3.Checked:
+			self.price = 0.05
+			
+
+	def Button1Click(self, sender, e):
+		self._label2.Text = ""
+		time = self._textBox1.Text
+		self._label2.Text = "Your call will cost $" + str(self.price * time)
+		

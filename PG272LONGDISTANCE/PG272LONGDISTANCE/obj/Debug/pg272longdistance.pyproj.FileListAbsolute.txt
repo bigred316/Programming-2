@@ -1,0 +1,12 @@
+C:\Users\price.g\Desktop\Programming 2\pg272longdistance\pg272longdistance\bin\Debug\pg272longdistance.exe.config
+C:\Users\price.g\Desktop\Programming 2\pg272longdistance\pg272longdistance\bin\Debug\pg272longdistance.exe
+C:\Users\price.g\Desktop\Programming 2\pg272longdistance\pg272longdistance\bin\Debug\pg272longdistance.dll
+C:\Users\price.g\Desktop\Programming 2\pg272longdistance\pg272longdistance\bin\Debug\IronPython.dll
+C:\Users\price.g\Desktop\Programming 2\pg272longdistance\pg272longdistance\bin\Debug\IronPython.Modules.dll
+C:\Users\price.g\Desktop\Programming 2\pg272longdistance\pg272longdistance\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\price.g\Desktop\Programming 2\pg272longdistance\pg272longdistance\bin\Debug\Microsoft.Scripting.dll
+C:\Users\price.g\Desktop\Programming 2\pg272longdistance\pg272longdistance\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\price.g\Desktop\Programming 2\pg272longdistance\pg272longdistance\obj\Debug\pg272longdistance.pyprojResolveAssemblyReference.cache
+C:\Users\price.g\Desktop\Programming 2\pg272longdistance\pg272longdistance\obj\Debug\pg272longdistance.MainForm.resources
+C:\Users\price.g\Desktop\Programming 2\pg272longdistance\pg272longdistance\obj\Debug\pg272longdistance.pyproj.GenerateResource.Cache
+C:\Users\price.g\Desktop\Programming 2\pg272longdistance\pg272longdistance\obj\Debug\pg272longdistance.exe
