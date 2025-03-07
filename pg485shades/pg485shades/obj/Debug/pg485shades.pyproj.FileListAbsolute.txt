@@ -1,0 +1,12 @@
+C:\Users\price.g\Desktop\Programming 2\pg485shades\pg485shades\bin\Debug\pg485shades.exe.config
+C:\Users\price.g\Desktop\Programming 2\pg485shades\pg485shades\bin\Debug\pg485shades.exe
+C:\Users\price.g\Desktop\Programming 2\pg485shades\pg485shades\bin\Debug\pg485shades.dll
+C:\Users\price.g\Desktop\Programming 2\pg485shades\pg485shades\bin\Debug\IronPython.dll
+C:\Users\price.g\Desktop\Programming 2\pg485shades\pg485shades\bin\Debug\IronPython.Modules.dll
+C:\Users\price.g\Desktop\Programming 2\pg485shades\pg485shades\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\price.g\Desktop\Programming 2\pg485shades\pg485shades\bin\Debug\Microsoft.Scripting.dll
+C:\Users\price.g\Desktop\Programming 2\pg485shades\pg485shades\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\price.g\Desktop\Programming 2\pg485shades\pg485shades\obj\Debug\pg485shades.pyprojResolveAssemblyReference.cache
+C:\Users\price.g\Desktop\Programming 2\pg485shades\pg485shades\obj\Debug\pg485shades.MainForm.resources
+C:\Users\price.g\Desktop\Programming 2\pg485shades\pg485shades\obj\Debug\pg485shades.pyproj.GenerateResource.Cache
+C:\Users\price.g\Desktop\Programming 2\pg485shades\pg485shades\obj\Debug\pg485shades.exe

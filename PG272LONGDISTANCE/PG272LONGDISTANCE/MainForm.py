@@ -106,15 +106,17 @@ class MainForm(Form):
 		self._button3.TabIndex = 8
 		self._button3.Text = "Exit"
 		self._button3.UseVisualStyleBackColor = True
+		self._button3.Click += self.Button3Click
 		# 
 		# label2
 		# 
 		self._label2.BackColor = System.Drawing.Color.FromArgb(128, 255, 255)
+		self._label2.Font = System.Drawing.Font("Microsoft Sans Serif", 20.25, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
 		self._label2.Location = System.Drawing.Point(420, 12)
 		self._label2.Name = "label2"
 		self._label2.Size = System.Drawing.Size(358, 346)
 		self._label2.TabIndex = 9
-		self._label2.Text = "label2"
+		self._label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
 		# 
 		# MainForm
 		# 
@@ -132,7 +134,14 @@ class MainForm(Form):
 		self._groupBox1.ResumeLayout(False)
 		self.ResumeLayout(False)
 		self.PerformLayout()
-
+	
+	def pricecalc(self):
+		if self._radioButton1.Checked:
+			self.price = 0.07
+		if self._radioButton2.Checked:
+			self.price = 0.12
+		if self._radioButton3.Checked:
+			self.price = 0.05
 
 	def MainFormLoad(self, sender, e):
 		pass
@@ -141,26 +150,23 @@ class MainForm(Form):
 		pass
 
 	def RadioButton2CheckedChanged(self, sender, e):
-		pricecalc()
+		self.pricecalc()
 
 	def RadioButton1CheckedChanged(self, sender, e):
-		pricecalc()
+		self.pricecalc()
 
 	def RadioButton3CheckedChanged(self, sender, e):
-		pricecalc()
+		self.pricecalc()
 	
 	
-	def pricecalc(self):
-		if RadioButton1.Checked:
-			self.price = 0.07
-		if RadioButton2.Checked:
-			self.price = 0.12
-		if RadioButton3.Checked:
-			self.price = 0.05
+	
 			
 
 	def Button1Click(self, sender, e):
 		self._label2.Text = ""
-		time = self._textBox1.Text
-		self._label2.Text = "Your call will cost $" + str(self.price * time)
+		time = float(self._textBox1.Text)
+		self._label2.Text = "Your call will cost $" + str(self.price * int(time))
 		
+
+	def Button3Click(self, sender, e):
+		Application.Exit()
