@@ -18,7 +18,11 @@ class Project:
         self.percenttest = self.test / self.whole
 
     def __str__(self):
-        return f"Task \t\t %Time\nDesigning\t\t{100*self.percentdesign}%\nCoding\t\t\t{100*self.percentcode}%\nDebugging\t\t{100*self.percentdebug}%\nTesting\t\t\t{100*self.percenttest}%"
+        return f"Task \t\t %Time\n+" \
+               f"Designing\t\t{100*self.percentdesign}%\n" \
+               f"Coding\t\t\t{100*self.percentcode}%\n" \
+               f"Debugging\t\t{100*self.percentdebug}%\n" \
+               f"Testing\t\t\t{100*self.percenttest}%"
 
 
 
