@@ -4,15 +4,16 @@ def main():
     lower = 0
     total = 0
     try:
-        with open("../Langdat/prog 215a.dat", "r") as f:
+        with open("Langdat/prog215a.dat", "r") as f:
             for line in f:
-                line = numSort()
-                line.Count()
-                if str(line) == True:
+                num = numSort(int(line))
+                num.Count()
+                if str(num) == "one":
                     higher += 1
                 else:
                     lower += 1
                 total += 1
+            print(f"There are {higher} numbers higher than or equal to 500\nThere are {lower} numbers lower than 500\nThere are {total} numbers in the file")
 
 
     except OSError as e:

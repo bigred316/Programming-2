@@ -5,9 +5,9 @@ class numSort:
 
     def Count(self):
         if self.num < 500:
-            self.tof = False
+            self.tof = "zero"
         elif self.num >= 500:
-            self.tof = True
+            self.tof = "one"
 
     def __str__(self):
         return self.tof
