@@ -1,0 +1,12 @@
+C:\Users\price.g\Desktop\Programming 2\textbook skaateboard designer\textbook skaateboard designer\bin\Debug\textbook skaateboard designer.exe.config
+C:\Users\price.g\Desktop\Programming 2\textbook skaateboard designer\textbook skaateboard designer\bin\Debug\textbook skaateboard designer.exe
+C:\Users\price.g\Desktop\Programming 2\textbook skaateboard designer\textbook skaateboard designer\bin\Debug\textbook skaateboard designer.dll
+C:\Users\price.g\Desktop\Programming 2\textbook skaateboard designer\textbook skaateboard designer\bin\Debug\IronPython.dll
+C:\Users\price.g\Desktop\Programming 2\textbook skaateboard designer\textbook skaateboard designer\bin\Debug\IronPython.Modules.dll
+C:\Users\price.g\Desktop\Programming 2\textbook skaateboard designer\textbook skaateboard designer\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\price.g\Desktop\Programming 2\textbook skaateboard designer\textbook skaateboard designer\bin\Debug\Microsoft.Scripting.dll
+C:\Users\price.g\Desktop\Programming 2\textbook skaateboard designer\textbook skaateboard designer\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\price.g\Desktop\Programming 2\textbook skaateboard designer\textbook skaateboard designer\obj\Debug\textbook skaateboard designer.pyprojResolveAssemblyReference.cache
+C:\Users\price.g\Desktop\Programming 2\textbook skaateboard designer\textbook skaateboard designer\obj\Debug\textbook_skaateboard_designer.MainForm.resources
+C:\Users\price.g\Desktop\Programming 2\textbook skaateboard designer\textbook skaateboard designer\obj\Debug\textbook skaateboard designer.pyproj.GenerateResource.Cache
+C:\Users\price.g\Desktop\Programming 2\textbook skaateboard designer\textbook skaateboard designer\obj\Debug\textbook skaateboard designer.exe
