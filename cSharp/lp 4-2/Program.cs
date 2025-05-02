@@ -18,6 +18,25 @@ namespace lp_4_2
             double width = double.Parse(Console.ReadLine());
             Console.WriteLine("please input height in cm");
             double height = double.Parse(Console.ReadLine());
+            if (length * width * height >= 100000 && weight > 27)
+            {
+                Console.WriteLine("The package is too heavy and too large");
+            }
+            else if (length * width * height >= 100000)
+            {
+                Console.WriteLine("Your package is too large");
+            }
+            else if (weight > 27)
+            {
+                Console.WriteLine("Your package is too heavy");
+            }
+            else
+            {
+                Console.WriteLine("your package is good to ship!");
+                Console.ReadLine();
+            }
+            
+
 
 
         }
