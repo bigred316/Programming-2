@@ -23,3 +23,6 @@ namespace prog54b
             Console.WriteLine("Sum: " + sum);
             Console.Write("Average: " + Math.Round(average));
             Console.ReadLine();
+        }
+    }
+}

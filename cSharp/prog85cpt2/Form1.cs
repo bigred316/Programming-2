@@ -19,12 +19,16 @@ namespace prog85cpt2
 
         private void button1_Click(object sender, EventArgs e)
         {
+            label1.Text = ("");
             double num = int.Parse(textBox1.Text);
             double month = 0;
             double day = 0;
             num -= 165;
             month = Math.Floor(num/100);
             day = num/100 - month;
+            day *= 100;
+            label1.Text = ("Your birthday is " + month.ToString() + "/" + day.ToString());
+
 
             
             

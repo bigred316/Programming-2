@@ -15,9 +15,18 @@ namespace lp_4_1
             double price = 0;
             double cost = 0;
             // && AND || OR | NOT
-            if (copies > 0  && <= 99){ 
+            if (copies > 0 && copies <= 99)
+            {
                 price = 0.30;
+            }
             else if (copies > 99 && copies <= 499) price = 0.28;
+            else if (copies > 499 && copies <= 749) price = 0.27;
+            else if (copies > 749 && copies <= 999) price = 0.26;
+            else if (copies > 1000) price = 0.25;
+            cost = price * copies;
+            Console.WriteLine("Each copy will cost $" + price.ToString());
+            Console.WriteLine("Your total cost is $" + price.ToString());
+            Console.ReadLine();
 
 
 
