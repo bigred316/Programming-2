@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strinterview7", "strintervi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strinterview16", "strinterview16\strinterview16.csproj", "{DD3B2875-1620-4CE6-9F93-BA32C11EBF07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pg273bookclubpoints", "pg273bookclubpoints\pg273bookclubpoints.csproj", "{65A88FF6-1034-48B6-85ED-C2043A3D5921}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{DD3B2875-1620-4CE6-9F93-BA32C11EBF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD3B2875-1620-4CE6-9F93-BA32C11EBF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD3B2875-1620-4CE6-9F93-BA32C11EBF07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65A88FF6-1034-48B6-85ED-C2043A3D5921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A88FF6-1034-48B6-85ED-C2043A3D5921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A88FF6-1034-48B6-85ED-C2043A3D5921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A88FF6-1034-48B6-85ED-C2043A3D5921}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
