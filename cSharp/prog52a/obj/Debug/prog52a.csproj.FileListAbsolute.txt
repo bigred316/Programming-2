@@ -1,6 +1,7 @@
 C:\Users\price.g\Desktop\Programming 2\cSharp\prog52a\bin\Debug\prog52a.exe.config
-C:\Users\price.g\Desktop\Programming 2\cSharp\prog52a\obj\Debug\prog52a.csprojResolveAssemblyReference.cache
 C:\Users\price.g\Desktop\Programming 2\cSharp\prog52a\bin\Debug\prog52a.exe
 C:\Users\price.g\Desktop\Programming 2\cSharp\prog52a\bin\Debug\prog52a.pdb
 C:\Users\price.g\Desktop\Programming 2\cSharp\prog52a\obj\Debug\prog52a.exe
 C:\Users\price.g\Desktop\Programming 2\cSharp\prog52a\obj\Debug\prog52a.pdb
+C:\Users\price.g\Desktop\Programming 2\cSharp\prog52a\obj\Debug\prog52a.csproj.AssemblyReference.cache
+C:\Users\price.g\Desktop\Programming 2\cSharp\prog52a\obj\Debug\prog52a.csproj.CoreCompileInputs.cache

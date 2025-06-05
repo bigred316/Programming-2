@@ -1,6 +1,6 @@
 C:\Users\price.g\Desktop\Programming 2\cSharp\prog54d\bin\Debug\prog54d.exe.config
 C:\Users\price.g\Desktop\Programming 2\cSharp\prog54d\bin\Debug\prog54d.exe
 C:\Users\price.g\Desktop\Programming 2\cSharp\prog54d\bin\Debug\prog54d.pdb
-C:\Users\price.g\Desktop\Programming 2\cSharp\prog54d\obj\Debug\prog54d.csprojResolveAssemblyReference.cache
 C:\Users\price.g\Desktop\Programming 2\cSharp\prog54d\obj\Debug\prog54d.exe
 C:\Users\price.g\Desktop\Programming 2\cSharp\prog54d\obj\Debug\prog54d.pdb
+C:\Users\price.g\Desktop\Programming 2\cSharp\prog54d\obj\Debug\prog54d.csproj.CoreCompileInputs.cache

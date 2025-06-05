@@ -1,1 +1,3 @@
 C:\Users\price.g\Desktop\Programming 2\cSharp\HelloName\bin\Debug\HelloName.exe.config
+C:\Users\price.g\Desktop\Programming 2\cSharp\HelloName\obj\Debug\HelloName.csproj.AssemblyReference.cache
+C:\Users\price.g\Desktop\Programming 2\cSharp\HelloName\obj\Debug\HelloName.csproj.CoreCompileInputs.cache

@@ -6,3 +6,5 @@ C:\Users\price.g\Desktop\Programming 2\cSharp\WindowsFormsApplication1\obj\Debug
 C:\Users\price.g\Desktop\Programming 2\cSharp\WindowsFormsApplication1\obj\Debug\HelloWOrld.csproj.GenerateResource.Cache
 C:\Users\price.g\Desktop\Programming 2\cSharp\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\price.g\Desktop\Programming 2\cSharp\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\price.g\Desktop\Programming 2\cSharp\WindowsFormsApplication1\obj\Debug\HelloWOrld.csproj.AssemblyReference.cache
+C:\Users\price.g\Desktop\Programming 2\cSharp\WindowsFormsApplication1\obj\Debug\HelloWOrld.csproj.CoreCompileInputs.cache
